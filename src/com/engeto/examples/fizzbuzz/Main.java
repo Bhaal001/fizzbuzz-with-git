@@ -6,6 +6,10 @@ public class Main {
 
         for (int i = 1; i < 101 ; i++) {
 
+            if (i % 3 == 0 && i % 5 == 0){ //zbytek po dělení 5 a zároveň 3 je nula
+                System.out.println("FizzBuzz");
+            } else
+
             if (i % 3 == 0){ //zbytek po dělení 3 je nula
 
                 System.out.println("Fizz");
