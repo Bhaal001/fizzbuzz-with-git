@@ -11,6 +11,10 @@ public class Main {
                 System.out.println("Fizz");
             } else
 
+            if (i % 5 == 0){ //zbytek po dělení 5 je nula
+                System.out.println("Buzz");
+            } else
+
 
 
 
